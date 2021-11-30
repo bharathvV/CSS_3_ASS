@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+
+      .first-div {
+        border-style: solid;
+        border-color: red;
+        border-radius: 20px;
+        border-width: 5px;
+        float: left;
+        width: 25%;
+        padding: 10px;
+        height: 100px;
+
+        margin-left: 430px;
+        margin-top: 10px;
+      }
+      .bgr {
+        background-color: white;
+      }
+      .second-div {
+        border-style: solid;
+        border-color: red;
+        border-radius: 20px;
+        border-width: 5px;
+        float: right;
+        width: 25%;
+        padding: 10px;
+        height: 100px;
+        margin-right: 10px;
+        margin-top: 10px;
+      }
+      .bgr {
+        background-color: white;
+      }
+      .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        width: 27%;
+        border: 3px solid red;
+        border-radius: 20px;
+        margin-left: 430px;
+        height: 100px;
+      }
+      .card1 {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        width: 170px;
+        border: 3px solid red;
+        border-radius: 20px;
+        height: 170px;
+        margin-left: 20px;
+      }
+      .card2 {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        width: 170px;
+        float: right;
+        border: 3px solid red;
+        border-radius: 20px;
+        height: 170px;
+        margin-top: -176px;
+        margin-right: 20px;
+      }
+      .container {
+        padding: 2px 16px;
+      }
+      .middle-div {
+        border: 5px solid green;
+      }
+      .box2 {
+        background-color: lawngreen;
+        position: fixed;
+        top: 350px;
+        right: 410px;
+        width: 25%;
+        height: 10%;
+        border-radius: 20px;
+        border: 5px solid red;
+        z-index: 2;
+
+        /* top:0px; */
+      }
+      .body-bgr {
+        background-color: antiquewhite;
+        padding: 10px;
+      }
+      .card3 {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        width: 170px;
+        border: 3px solid red;
+        border-radius: 20px;
+        height: 170px;
+        margin-top: -176px;
+        margin-right: 20px;
+      }
+      div.relative {
+        position: relative;
+        width: 550px;
+        height: 500px;
+        align-items: center;
+        border: 4px solid black;
+        margin-left: 360px;
+        margin-top: 20px;
+        background-color: green;
+        z-index: -1;
+      }
+
+      div.absolute1 {
+        position: absolute;
+        top: 80px;
+        right: 5px;
+        width: 260px;
+        height: 180px;
+        border: 3px solid red;
+        background-color: yellow;
+      }
+      .absolute2 {
+        position: absolute;
+        left: 0px;
+        top: 80px;
+        bottom: 5px;
+        width: 255px;
+        height: 180px;
+        border: 3px solid red;
+        background-color: yellow;
+      }
+      .absolute3 {
+        position: absolute;
+        left: 0px;
+        top: 280px;
+        bottom: 5px;
+        width: 545px;
+        height: 230px;
+        border: 3px solid red;
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body class="body-bgr">
+    <div class="card">
+      <div class="container">
+        <h4>
+          <b>
+            <p
+              style="
+                text-align: center;
+                padding-top: 23px;
+                color: brown;
+                font-size: 20px;
+              "
+            >
+              <i>WELCOME TO ALL-IN-ONE GENERAL STORE</i>
+            </p></b
+          >
+        </h4>
+      </div>
+    </div>
+    <hr />
+    <hr />
+    <div class="middle-div">
+      <div class="card1">
+        <div class="container">
+          <h4>
+            <b>
+              <p
+                style="
+                  text-align: center;
+                  padding: 10px;
+                  color: brown;
+                  font-size: 20px;
+                "
+              >
+                Address: <br />
+                B-145 Delhi Public School Faridabad Haryana
+              </p></b
+            >
+          </h4>
+        </div>
+      </div>
+      <div class="card2">
+        <div class="container">
+          <h4>
+            <b>
+              <p style="text-align: center; color: brown; font-size: 20px">
+                <img
+                  width="140px;"
+                  style="padding-top: 10px"
+                  src="./images/pic2.png"
+                  alt=""
+                /></p
+            ></b>
+          </h4>
+        </div>
+      </div>
+      <br /><br /><br />
+      <div class="card1">
+        <div class="container">
+          <h4>
+            <b>
+              <p
+                style="
+                  text-align: center;
+                  padding: 8px;
+                  color: brown;
+                  font-size: 17px;
+                "
+              >
+                WE SERVE OUR BEST TO YOU. PLEASE VISIT OUR STORE FOR BETTER DEAL
+                AND PRICE
+              </p></b
+            >
+          </h4>
+        </div>
+      </div>
+      <div class="card2">
+        <div class="container">
+          <h4>
+            <b>
+              <p
+                style="
+                  text-align: center;
+                  padding: 6px;
+                  color: black;
+                  font-size: 15px;
+                "
+              >
+                PLEASE RATE US <br /><br />
+                <label for="">RATE US</label><br />
+                <center style="align-content: center">
+                  <input type="text" placeholder="Enter no" id="num" />
+                </center>
+                <br />
+                <font
+                  style="
+                    padding-left: 30px;
+                    text-align: center;
+                    font-size: 17px;
+                  "
+                  >SUBMIT</font
+                >
+                <br />
+                <br />
+                <center>
+                  <input
+                    style="color: black; background-color: red"
+                    type="submit"
+                    name="submit"
+                    id=""
+                  />
+                </center></p
+            ></b>
+          </h4>
+        </div>
+      </div>
+    </div>
+    <div class="box2">
+      <div style="float: left; color: black; padding: 10px">
+        <i>Exciting Offer only on</i> <br />
+        <i>Monday</i>
+      </div>
+      <div style="float: right; color: black; padding: 10px">
+        <i>Get discount upto</i> <br />
+        <i>10%</i>
+      </div>
+    </div>
+    <br />
+
+    <div class="relative" style="text-align: center; padding-top: 20px">
+      <h2>Welcome To My Store</h2>
+      <div class="absolute1" style="text-align: center">
+        <i><b>Vegetables</b></i>
+        <br />
+        <br />
+        <hr />
+        <font style="font-size: 11px; line-height: 30px"
+          ><i>
+            CARROT,BROCCOLI,CAULIFLOWER,CORN CUMCUMBER,EGGPLANT,GREEN
+            PEPPER,ONION POTATO,PUMPKIN,TOMATIO,PEAS RADISH,CABBAGE,CHILLI,GREEN
+            BEAN
+          </i>
+        </font>
+      </div>
+      <div class="absolute2" style="padding-left: 10px; text-align: center">
+        <i><b>Fruits</b></i>
+        <br />
+        <br />
+        <hr />
+        <font style="font-size: 11px; line-height: 30px"
+          ><i>
+            BANANA,MANGO,ORANGE,STRAWBERRY COCONUT,DRY PLUMS,APPLE,ORANGE
+            CHERRY,GRAPES,GAUVA,OLIVE PAPAYA,PINEPPLE,MULBERRY,WATERMELON
+          </i>
+        </font>
+      </div>
+
+      <div class="absolute3" style="text-align: center">
+        <i><b>Other Items</b></i>
+        <br />
+        <br />
+        <hr />
+        <font style="font-size: 11px; line-height: 35px"
+          ><i>
+            MILK,CHEESE,ORANGE
+            JUICE,SODA,COFFEE,TEA,FLOUR,SUGAR,SALT,SOAP,BAKING SODA
+            MUSTARD,TISSUE,CEREAL,BUTTER,JELLY,DISHWASHER SOAP,BREAD
+            MILK,CHEESE,ORANGE
+            JUICE,SODA,COFFEE,TEA,FLOUR,SUGAR,SALT,SOAP,BAKING SODA
+            MUSTARD,TISSUE,CEREAL,BUTTER,JELLY,DISHWASHER SOAP,BREAD
+          </i>
+        </font>
+      </div>
+    </div>
+  </body>
+</html>
